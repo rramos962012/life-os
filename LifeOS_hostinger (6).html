@@ -1782,7 +1782,7 @@ function setSyncStatus(state,detail){
 //  and sync silently stops. Set it once, re-upload, and it's
 //  permanent for every device that loads this file.
 // ═══════════════════════════════════════════════════════
-const DEFAULT_SCRIPT_URL = '';   // e.g. 'https://script.google.com/macros/s/AKfyc.../exec'
+const DEFAULT_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzbF6Pe1WKM3fkN56PowoPx5hBRoNXJ4S5JXGH1xreM0lBTk7zwVR3EazzdokeEIUABPw/exec';   // e.g. 'https://script.google.com/macros/s/AKfyc.../exec'
 
 // Prefer a saved URL, but ALWAYS fall back to the baked-in default.
 let scriptUrl = localStorage.getItem('lifeos_url') || DEFAULT_SCRIPT_URL || '';
